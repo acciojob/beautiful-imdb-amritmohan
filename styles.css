@@ -1,2 +1,30 @@
 
 /* Your CSS Code here. */
+
+.movie-container {
+    position: relative;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.moviePic {
+    height: 450px;
+    width: 300px;
+    opacity: 0.9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.movieDetail {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+    text-align: center;
+    font-size: 18px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
